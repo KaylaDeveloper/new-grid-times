@@ -1,6 +1,6 @@
-import styled from 'styled-components/macro';
+import styled from "styled-components/macro";
 
-import { QUERIES } from '../../constants';
+import { QUERIES } from "../../constants";
 
 const MaxWidthWrapper = styled.div`
   position: relative;
@@ -11,8 +11,8 @@ const MaxWidthWrapper = styled.div`
   padding-right: 16px;
 
   @media ${QUERIES.laptopAndUp} {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 81px;
+    padding-right: 81px;
   }
 `;
 
